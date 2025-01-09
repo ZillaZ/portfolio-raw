@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Lucas | Software Developer </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="src/styles.css">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <script type="module" src="src/script.js"></script>
+    </head>
+    <body>
+        <div class="left-bar">
+            <div class="links">
+                <a target="_blank" href="https://x.com/zxllvz">X</a>
+                <a target="_blank" href="https://www.linkedin.com/in/lucas-hsm">LinkedIn</a>
+                <a target="_blank" href="https://github.com/ZillaZ">Github</a>
+            </div>
+            <div class="picture">
+                <img src="static/9s.jpg" alt="profile pic" />
+            </div>
+            <div class="sections">
+                <button data-section="about">About Me</button>
+                <button data-section="experience">Experience</button>
+                <button data-section="projects">Projects</button>
+            </div>
+        </div>
+        <div id="about" class="info-wrapper">
+               <h1 class="header">Lucas Henrique</h1>
+            <h2 class="subheader">Junior Software Developer | 19 years old</h2>
+            <p class="intro">Passionate about low-level programming and high-performance systems.</p>
+            <p>
+                I have experience working on web projects using the Svelte (JavaScript)
+                framework to create interfaces and Rocket (Rust) to develop high-performance
+                APIs, integrating them with relational databases such as MySQL, Postgres,
+                and Microsoft SQL Server.
+            </p>
+            <p>I am currently focused on projects using the Rust programming language.</p>
+
+        </div>
+        <div id="experience" class="info-wrapper" style="display: none;">
+           <h2 class="section-title">Professional Experience</h2>
+            <p class="experience-intro">During my collaboration with the institution's digital transformation team, I played a critical role in optimizing processes and implementing automated solutions.</p>
+            <div class="achievements">
+                <h3>Key Achievements:</h3>
+                <ul>
+                    <li>Automated mass email communications to increase stakeholder engagement efficiency</li>
+                    <li>Maintained and optimized database operations ensuring data accuracy and availability</li>
+                    <li>Implemented external API integration for census data validation</li>
+                    <li>Managed Google Workspace accounts and user administration</li>
+                </ul>
+            </div>
+        </div>
+        <div id="projects" class="info-wrapper" style="display: none;">
+           <h2 class="section-title">Featured Projects</h2>
+            <div class="project-card">
+                <h3 class="project-title">AI Assistant</h3>
+                <p class="project-description">AI Assistant site, similar to ChatGPT.</p>
+                <div class="project-details">
+                    <p>• Consumes the FireworksAI API to generate chat completions</p>
+                    <p>• Integrates Google Text-to-Speech API for natural-sounding voices</p>
+                    <p>• Built with fully synchronous Rust</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3 class="project-title">The Apollo Programming Language</h3>
+                <p class="project-description">A high-performance compiled programming language.</p>
+                <div class="project-details">
+                    <p>• Leverages GCC compiler for efficient bytecode generation</p>
+                    <p>• Utilizes Rust parser Pest for language parsing</p>
+                    <p>• Focuses on performance optimization</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
